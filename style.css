@@ -1,0 +1,44 @@
+header {font-family: 'Montserrat', sans-serif; }
+
+h1 {text-align: center;}
+
+main {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+
+div {border-style: solid ;
+    border-color: rgb(13, 90, 51); 
+    border-radius: 4px; 
+    font-family: 'Montserrat', sans-serif;}
+
+.cards { background-color: rgb(8, 77, 42)}
+
+h2 {font-size: 15px;}
+p, li {font-size: 0.7em; color: white;}
+p, ul, h2 {padding: 5px; color: white;}
+
+.gridder {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-template-rows: auto;
+grid-gap: 10px; 
+border-style: none;}
+
+footer {background-color: rgb(9, 66, 38); 
+        height: 9em; 
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 10px;
+        display: flex; flex-direction: column; justify-content: space-between; 
+        margin-top: 2%;}
+
+
+a {text-decoration: none;  color: whitesmoke;} 
+
+.footer-links {font-size: 11px; 
+               text-align: center; 
+               color: white;}
+
+.i0 {width: 27%; 
+    height: 37%; 
+    margin-bottom:-4px;}
+
